@@ -14,32 +14,32 @@ public class RegistroTemperaturas {
     public static void main(String[] args) {
 
         
-        String[] ciudades = { "Junin", "Rocafuerte" };         
+        String[] ciudades = { "Junin", "Rocafuerte" };       // CIUDADES  
         String[] dias = {                                      
-                "Lunes", "Martes", "Miércoles", "Jueves",
+                "Lunes", "Martes", "Miércoles", "Jueves",   // SEMANAS = 7 DIAS
                 "Viernes", "Sábado", "Domingo"
         };
         String[] semanas = { "Semana 1", "Semana 2" };        
 
 
         double[][][] temperaturas = {
-                {  
-                        {22, 23}, 
-                        {25, 26}, 
-                        {22, 23},
-                        {23, 24}, 
-                        {26, 27}, 
-                        {27, 28}, 
-                        {28, 29} 
+                {  // JUNIN
+                        {22, 23}, // LUNES
+                        {25, 26}, // MARTES
+                        {22, 23}, // MIERCOLES
+                        {23, 24}, // JUEVES
+                        {26, 27}, // VIERNES
+                        {27, 28}, // SABADO
+                        {28, 29}  // DOMINGO
                 },
-                {   
-                        {28, 29},
-                        {29, 30}, 
-                        {30, 31}, 
-                        {29, 30},
-                        {30, 31},
-                        {31, 32}, 
-                        {30, 31} 
+                {    // ROCAFUERTE
+                        {28, 29}, // LUNES
+                        {29, 30}, // MARTES
+                        {30, 31}, // MIERCOLES
+                        {29, 30}, // JUEVES
+                        {30, 31}, // VIERNES
+                        {31, 32}, // SABADO
+                        {30, 31}  // DOMINGO
                 }
         };
 
